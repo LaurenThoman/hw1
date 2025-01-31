@@ -14,6 +14,10 @@ the function below should be the only one in this file.
 #include <cstddef>
 
 /* Add a prototype for a helper function here if you need */
+
+/* If you needed a helper function, write it here */
+
+// WRITE YOUR CODE HERE
 void split(Node*& in, Node*& odds, Node*& evens) {
     if (in == nullptr) { //base case
         return;
@@ -31,9 +35,3 @@ void split(Node*& in, Node*& odds, Node*& evens) {
     }
     split(in, odds, evens); //recursive call
 }
-
-
-
-/* If you needed a helper function, write it here */
-
-// WRITE YOUR CODE HERE
